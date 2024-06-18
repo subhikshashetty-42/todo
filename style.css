@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.todo-container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#new-task {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #df4b52;
+    margin-bottom: 5px;
+}
+
+button.edit, button.delete {
+    background:cornflowerblue;
+    border: none;
+    cursor: pointer;
+}
